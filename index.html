@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam | Web Developer & Creative Coder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body class="theme-aurora">
+    <!-- Theme Switcher -->
+    <div class="theme-switcher">
+        <button class="theme-toggle" id="themeToggle" aria-label="Change theme">
+            <i class="fas fa-palette"></i>
+        </button>
+        <div class="theme-options">
+            <button class="theme-option" data-theme="aurora" aria-label="Aurora theme">
+                <span class="theme-preview aurora"></span>
+                <span class="theme-name">Aurora</span>
+            </button>
+            <button class="theme-option" data-theme="forest" aria-label="Forest theme">
+                <span class="theme-preview forest"></span>
+                <span class="theme-name">Forest</span>
+            </button>
+            <button class="theme-option" data-theme="ocean" aria-label="Ocean theme">
+                <span class="theme-preview ocean"></span>
+                <span class="theme-name">Ocean</span>
+            </button>
+            <button class="theme-option" data-theme="sunset" aria-label="Sunset theme">
+                <span class="theme-preview sunset"></span>
+                <span class="theme-name">Sunset</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Shivam<span>.</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <a href="assets/resume.pdf" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </li>
+            </ul>
+          <div>
+ <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+           
+          </div>
+            
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Shivam</span> — <br>Web Developer & Creative Coder</h1>
+                    <p class="hero-subtitle">I’m a passionate Web Developer creating modern, responsive, and user-friendly digital experiences. I turn ideas into clean, functional, and impactful web solutions. Let’s build something amazing together.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="blob blob-1"></div>
+                    <div class="blob blob-2"></div>
+                    <div class="blob blob-3"></div>
+                    <div class="nature-shape leaf-1"></div>
+                    <div class="nature-shape leaf-2"></div>
+                    <div class="nature-shape mountain"></div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-down" aria-label="Scroll to about section">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">My Development Journey</p>
+                
+                <div class="about-content">
+                    
+                    <div class="about-image">
+                        
+                        <div class="image-wrapper">
+                            
+                            <div class="profile-image">
+                                <img src="assets/profile.png" alt="">   
+                            </div>
+                            <div class="image-glow"></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Bringing Ideas to Life with Code</h3>
+                        <p>I’m a passionate Web Developer with an MCA background, dedicated to building modern, responsive, and user-focused digital experiences. I love turning ideas into functional and visually appealing solutions, balancing clean design with efficient code.</p>
+                        <p>Driven by curiosity and continuous learning, I aim to create meaningful products that deliver real value and leave a lasting impact.</p>
+                        
+                        <div class="stats">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <h4 class="stat-number">Fresher</h4>
+                                    <p class="stat-label">Driven fresher, eager to learn and give my best.</p>
+                                </div>
+                            </div>  
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-project-diagram"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <h4 class="stat-number">3+</h4>
+                                    <p class="stat-label">Projects Completed</p>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <h4 class="stat-number">9+</h4>
+                                    <p class="stat-label">Technologies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+                
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-paint-brush"></i> Frontend</h3>
+                        <div class="skill-list">
+                            <!-- Skills will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="skill-list">
+                            <!-- Skills will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                        <div class="skill-list">
+                            <!-- Skills will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">A selection of my recent work</p>
+                
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on something great</p>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>Shivam865766@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <p>+91 9974113147</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Rajkot Gujarat India</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/MR-SHIVAM1" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/shivam-yadav-shivam-64aaa0384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/shivamyadav7375?igsh=azFrN2dqOThjb3Vm" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Your Name</label>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email Address</label>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <label for="message">Your Message</label>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                            <div class="form-message" id="formMessage"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Shivam<span>.</span></a>
+                    <p>Creating beautiful digital experiences inspired by nature.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect with me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/MR-SHIVAM1" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-yadav-shivam-64aaa0384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/shivamyadav7375?igsh=azFrN2dqOThjb3Vm" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Codepen"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Shivam. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> and nature-inspired code.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
